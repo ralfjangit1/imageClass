@@ -12,7 +12,7 @@ class_names = ["cat", "dog"]
 
 IMG_SIZE = (224, 224)
 
-st.title("🐱🐶 Cats vs Dogs Classifier")
+st.title("Cats vs Dogs Classifier")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
